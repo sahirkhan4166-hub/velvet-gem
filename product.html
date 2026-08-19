@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Velvet Gem premium jewellery product details">
+<title>Velvet Gem | Product Details</title>
+<link rel="stylesheet" href="product.css">
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="index.html"><span>VG</span><b>VELVET GEM</b></a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="index.html#shop">Shop</a>
+    <a href="checkout.html">Checkout</a>
+  </nav>
+  <a class="bag" href="checkout.html">🛍️ <span id="bagCount">0</span></a>
+</header>
+
+<main>
+<section class="product-page">
+  <a class="back" href="index.html">← Back to shop</a>
+
+  <div class="product-layout">
+    <div class="gallery">
+      <div class="badge" id="badge">New</div>
+      <img id="productImage" src="images/heart-gem-necklace.jpg" alt="Velvet Gem jewellery">
+    </div>
+
+    <div class="details">
+      <p class="eyebrow" id="category">NECKLACES</p>
+      <h1 id="productName">Heart Gem Necklace</h1>
+      <div class="rating">★★★★★ <span>Premium collection</span></div>
+      <div class="price" id="price">₹899</div>
+      <p class="description" id="description">
+        A graceful statement piece designed to add a refined sparkle to everyday and special occasions.
+      </p>
+
+      <div class="features">
+        <div><strong>✦</strong><span>Elegant design</span></div>
+        <div><strong>✦</strong><span>Premium finish</span></div>
+        <div><strong>✦</strong><span>Gift-ready style</span></div>
+      </div>
+
+      <div class="qty">
+        <span>Quantity</span>
+        <div class="stepper">
+          <button id="minus" type="button">−</button>
+          <b id="quantity">1</b>
+          <button id="plus" type="button">+</button>
+        </div>
+      </div>
+
+      <button class="primary" id="addToBag">🛒 ADD TO BAG</button>
+      <button class="whatsapp" id="buyNow">💬 ORDER ON WHATSAPP</button>
+
+      <div class="info">
+        <div><b>Availability</b><span>In Stock</span></div>
+        <div><b>Business hours</b><span>24×7</span></div>
+        <div><b>Delivery</b><span>Contact us for delivery details</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="description-box">
+  <h2>Product Details</h2>
+  <p id="longDescription">
+    Velvet Gem jewellery is selected to bring a timeless, elegant finish to your look. Please contact us on WhatsApp for current availability, delivery options and care guidance.
+  </p>
+</section>
+
+<section class="related">
+  <h2>You may also like</h2>
+  <div id="relatedGrid" class="related-grid"></div>
+</section>
+</main>
+
+<footer>
+  <b>VELVET GEM</b>
+  <span>📞 8582925461 · ✉️ mintekhab01@gmail.com</span>
+  <span>📍 Topsia, Tiljala, Kolkata 700039 · Open 24×7</span>
+</footer>
+
+<script src="product.js"></script>
+</body>
+</html>
