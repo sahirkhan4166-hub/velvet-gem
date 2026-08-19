@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Velvet Gem | Checkout</title><link rel="stylesheet" href="checkout.css"></head>
+<body>
+<header><a class="brand" href="index.html"><span>VG</span><b>VELVET GEM</b></a><a href="index.html">← Back to shop</a></header>
+<main><section class="intro"><p>VELVET GEM</p><h1>Complete your <em>order.</em></h1><span>Send your jewellery order directly to WhatsApp.</span></section>
+<div class="layout">
+<form id="orderForm" class="card">
+<h2>Customer details</h2>
+<label>Full name *<input id="name" required autocomplete="name" placeholder="Your name"></label>
+<label>Mobile number *<input id="phone" required inputmode="tel" autocomplete="tel" placeholder="10-digit mobile number"></label>
+<label>Delivery address *<textarea id="address" required autocomplete="street-address" placeholder="House / flat, street, area"></textarea></label>
+<div class="two"><label>City *<input id="city" required value="Kolkata"></label><label>PIN code *<input id="pin" required inputmode="numeric" placeholder="700039"></label></div>
+<label>Order note (optional)<textarea id="note" placeholder="Colour preference, delivery note, etc."></textarea></label>
+<button class="order" type="submit">💬 PLACE ORDER ON WHATSAPP</button>
+<small>No payment is taken on this page. Your order details will open in WhatsApp.</small>
+</form>
+<aside class="card"><h2>Order summary</h2><div id="items"></div><div class="total"><span>Total</span><b id="total">₹0</b></div>
+<div class="business"><b>Velvet Gem</b><span>📞 8582925461</span><span>📍 Topsia, Tiljala, Kolkata 700039</span><span>🕐 Open 24×7</span></div></aside>
+</div></main><script src="checkout.js"></script></body></html>
