@@ -43,6 +43,9 @@ function renderProducts() {
         <div class="product-info">
           <h3>${p.name}</h3>
           <div class="price">${money(p.price)}</div>
+          <a class="view-product" href="product.html?id=${p.id}">
+          View Product
+          </a>
           <button class="add" onclick="addToCart(${p.id})">
             Add to bag
           </button>
